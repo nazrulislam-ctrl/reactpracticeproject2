@@ -5,7 +5,7 @@ const{thumbnail,price, brand, description, category}=cardInfo;
       <div className="card w-96 bg-base-100 shadow-xl">
         <figure>
           <img
-            src={cardInfo.thumbnail}
+            src={thumbnail}
             alt="Shoes"
           />
         </figure>

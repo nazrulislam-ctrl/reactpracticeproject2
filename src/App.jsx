@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     productFetch();
   }, []);
-console.log(products)
+
   return (
     <>
       <div className="mb-4">
